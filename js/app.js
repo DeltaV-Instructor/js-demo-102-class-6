@@ -36,9 +36,9 @@ and &&
 
 //take in user input
 let userName = prompt('What is your name?');
-
+let nameConfirm = confirm('Is that really your name?');
 console.log('What is our input for user name: ', userName);
-
+console.log('did they confirm yes? ',nameConfirm);
 let time = prompt('what hour is it? In Military time.');
 
 console.log('Users time is: ', time);
