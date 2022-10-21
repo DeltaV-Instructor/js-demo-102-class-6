@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(104, 96, 226);
+  background-color: rgb(97, 121, 227);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,13 +53,14 @@ footer {
   background-color: rgba(205, 26, 221);
   height: 100px;
 }
-
+/* we set an id to be used just once in our html */
+/* then we add the comment */
 #hero {
   width: 960px;
   height: 260px;
   border: 10px solid rebeccapurple;
 }
-
+/* this is where we set up a class and we can use classes multiple times  */
 .lowerPics {
   display: inline-block;
   max-width: 30%;
